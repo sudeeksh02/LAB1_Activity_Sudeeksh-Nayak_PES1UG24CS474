@@ -14,6 +14,10 @@
 | [`Requirements_Table.pdf`](Requirements_Table.pdf) | PDF (`.pdf`) | Requirements Table featuring 5 FRs (FR-001 to FR-005) and 2 NFRs (NFR-001 & NFR-002) with ID, Type, Description, Priority, Acceptance Criteria, Rationale & Comments. |
 | [`Use_Case_Diagram.png`](Use_Case_Diagram.png) | Image (`.png`) | Vector UML Use-Case Diagram depicting all 3 actors, 5 primary use cases, boundary box, `«include»`, and `«extend»` stereotypes. |
 | [`Use_Case_Flow_Specification.pdf`](Use_Case_Flow_Specification.pdf) | PDF (`.pdf`) | 1-page Use-Case Flow Specification document for core use case `UC-01: Evaluate Feature Flag & Dynamic Config`. |
+| [`Alternate_Flow_Activity_Diagram.png`](Alternate_Flow_Activity_Diagram.png) | Image (`.png`) | UML Activity Diagram illustrating the step-by-step logic of the Cache Fallback alternate flow. |
+| [`Alternate_Flow_Activity_Diagram.pdf`](Alternate_Flow_Activity_Diagram.pdf) | PDF (`.pdf`) | PDF vector export of the UML Activity Diagram. |
+| [`Exception_Flow_Specification.pdf`](Exception_Flow_Specification.pdf) | PDF (`.pdf`) | PDF version of the Exception Use-Case Flow Specification document detailing HTTP 401, 403, and 500 exceptions. |
+| [`Exception_Flow_Specification.docx`](Exception_Flow_Specification.docx) | Word (`.docx`) | Word document version of the Exception Use-Case Flow Specification. |
 | [`43_SE_Lab1_SE_Problem_Statements (1).pdf`](43_SE_Lab1_SE_Problem_Statements%20%281%29.pdf) | PDF (`.pdf`) | Original Lab 1 Problem Statement #43 document. |
 
 ---
@@ -77,3 +81,44 @@
   2a4. If cache empty, SDK uses developer hardcoded fallback value.  
   2a5. SDK logs offline warning telemetry and schedules background retry.  
   2a6. Use case completes with fallback state.
+
+---
+
+## 4. Alternate Flow UML Activity Diagram
+
+![UML Activity Diagram](Alternate_Flow_Activity_Diagram.png)
+
+The activity diagram models the detailed control flow and functional activities triggered by Alternate Flow **2a (Network Timeout / Fallback to Local Cache)**. It documents:
+- Exception handling boundaries for Client SDK.
+- Sequential cache query execution.
+- Diamond-decision branch checking if the local cache is empty.
+- Fallback value assignment vs. cached configuration loading.
+- System merging activities to log telemetry and schedule background retry threads.
+
+---
+
+## 5. Exception Flow Specifications
+
+Detailed specs for when preconditions fail or system errors prevent successful evaluations:
+
+### Exception Flow 1b (HTTP 401): Invalid or Expired API Key
+- **1b1.** Client SDK sends evaluation request with an expired or invalid API key.
+- **1b2.** System fails validation check of client API key in the auth database.
+- **1b3.** System logs an authentication failure security event with metadata.
+- **1b4.** System returns HTTP 401 Unauthorized with error payload.
+- **1b5.** Client SDK catches 401 error, throws a fatal initialization exception to the host application, and the use case terminates.
+
+### Exception Flow 1c (HTTP 403): Environment Access Denied
+- **1c1.** Client SDK sends evaluation request targeting a specific restricted environment (e.g. Production).
+- **1c2.** System determines that the API key scope is limited to Development or Staging only.
+- **1c3.** System logs environment access authorization violation alert.
+- **1c4.** System returns HTTP 403 Forbidden with access restriction error payload.
+- **1c5.** Client SDK catches 403 response, logs permissions failure telemetry, falls back to the hardcoded developer default, and terminates.
+
+### Exception Flow 1d (HTTP 500 & Empty Cache): Database Outage & Empty Cache
+- **1d1.** Client SDK sends evaluation request payload.
+- **1d2.** System database queries fail (database service offline / internal timeouts).
+- **1d3.** Redis backup memory cache queries fail, returning HTTP 500 Internal Server Error to the SDK.
+- **1d4.** Client SDK detects HTTP 500 and queries its local disk/memory rules cache.
+- **1d5.** Client SDK determines that the local rules cache is empty (first-time application boot).
+- **1d6.** SDK applies the hardcoded developer fallback value, logs a critical system failure warning to local diagnostics, schedules background sync retry task, and terminates.
