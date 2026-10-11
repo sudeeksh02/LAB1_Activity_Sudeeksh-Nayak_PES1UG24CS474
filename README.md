@@ -122,3 +122,20 @@ Detailed specs for when preconditions fail or system errors prevent successful e
 - **1d4.** Client SDK detects HTTP 500 and queries its local disk/memory rules cache.
 - **1d5.** Client SDK determines that the local rules cache is empty (first-time application boot).
 - **1d6.** SDK applies the hardcoded developer fallback value, logs a critical system failure warning to local diagnostics, schedules background sync retry task, and terminates.
+
+---
+
+# Software Engineering Lab 4: Vibe Coding (Reaction Time Tester)
+
+**Assignment Domain**: Interactive Reflex Game Design (Pygame)  
+**Deliverables Location**: [`Lab-4/`](Lab-4/)
+
+### Deliverables Summary
+
+| File | Type | Description |
+|---|---|---|
+| [`Lab-4/before.mp4`](Lab-4/before.mp4) | Video (`.mp4`) | Demonstrates the gameplay **before** changes, showcasing the inflated reaction timing bug and premature clicks registered during the wait phase. |
+| [`Lab-4/after.mp4`](Lab-4/after.mp4) | Video (`.mp4`) | Demonstrates the gameplay **after** changes, showcasing false start detection, accurate reaction timing from green screen cue, Game Over stats screen, difficulty & replay system, and procedural audio cues. |
+| [`Lab-4/Lab_4_VibeCoding_Prompts_And_Chat_History.pdf`](Lab-4/Lab_4_VibeCoding_Prompts_And_Chat_History.pdf) | PDF (`.pdf`) | Technical report listing all iterative vibe coding prompts used, technical rationale, code changes, and test verification. |
+| [`Lab-4/`](Lab-4/) | Source Code | Complete Pygame game engine, rounds logic, dynamic sound synthesis (`assets/sounds/`), and documentation. |
+
