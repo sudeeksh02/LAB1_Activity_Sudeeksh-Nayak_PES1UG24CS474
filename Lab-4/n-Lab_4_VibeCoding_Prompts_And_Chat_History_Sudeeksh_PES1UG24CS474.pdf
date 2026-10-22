@@ -1,0 +1,1052 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 3
+/Kids [ 4 0 R 11 0 R 15 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 6406
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 60 680 cm
+q
+BT 1 0 0 1 0 30 Tm 26 TL /F2 22 Tf .058824 .090196 .164706 rg (Lab 4: Vibe Coding \227 Prompt History &) Tj T* (Technical Report) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 642 cm
+q
+.145098 .388235 .921569 rg
+BT 1 0 0 1 0 20 Tm /F1 12 Tf 16 TL (Assignment: Real-Time Reaction Time Tester \(Pygame\) \177) Tj T* (SETAPESU26/43_reaction-time-tester) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 626.5 cm
+q
+1.5 w
+1 J
+.145098 .388235 .921569 RG
+n 0 0 m 492 0 l S
+Q
+Q
+q
+1 0 0 1 56 563.5 cm
+q
+.945098 .960784 .976471 rg
+n 0 51 500 -51 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 10 31.5 cm
+q
+BT 1 0 0 1 0 4 Tm 13.5 TL /F2 9.5 Tf .2 .254902 .333333 rg (Lab:) Tj /F1 9.5 Tf ( Lab 4 \227 VibeCoding) Tj T* ET
+Q
+Q
+q
+1 0 0 1 250 31.5 cm
+q
+BT 1 0 0 1 0 4 Tm 13.5 TL /F2 9.5 Tf .2 .254902 .333333 rg (Target Repo:) Tj /F1 9.5 Tf ( SETAPESU26/43_reaction-time-tester) Tj T* ET
+Q
+Q
+q
+1 0 0 1 10 6 cm
+q
+BT 1 0 0 1 0 4 Tm 13.5 TL /F2 9.5 Tf .2 .254902 .333333 rg (Deliverable:) Tj /F1 9.5 Tf ( Chat History / Prompts PDF) Tj T* ET
+Q
+Q
+q
+1 0 0 1 250 6 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F2 8.5 Tf .015686 .470588 .341176 rg (Outcome: All 4 Tasks Completed & Tested) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.796078 .835294 .882353 RG
+1 w
+n 0 51 m 500 51 l S
+n 0 0 m 500 0 l S
+n 0 0 m 0 51 l S
+n 500 0 m 500 51 l S
+.886275 .909804 .941176 RG
+.5 w
+n 0 25.5 m 500 25.5 l S
+n 240 0 m 240 51 l S
+Q
+Q
+Q
+q
+1 0 0 1 60 551.5 cm
+Q
+q
+1 0 0 1 60 519.5 cm
+q
+BT 1 0 0 1 0 4 Tm 18 TL /F2 14 Tf .117647 .160784 .231373 rg (1. Objective & Vibe Coding Strategy) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 471 cm
+q
+BT 1 0 0 1 0 31 Tm 13.5 TL /F1 9.5 Tf .2 .254902 .333333 rg (The objective of Lab 4 is to practice ) Tj /F2 9.5 Tf (Vibe Coding) Tj /F1 9.5 Tf ( with an advanced AI pair programmer, diagnosing and rectifying) Tj T* (broken game timing logic and iteratively adding all requested features from the repository README in under three to) Tj T* (four prompt iterations. The project is an interactive Pygame application measuring user visual reaction times.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 397.5 cm
+q
+BT 1 0 0 1 0 58 Tm 13.5 TL /F1 9.5 Tf .2 .254902 .333333 rg (Four critical tasks were designated in the repository instructions:) Tj  T* (\177 ) Tj /F2 9.5 Tf (Task 1:) Tj /F1 9.5 Tf ( Refine Input Timing Detection & False Start Handling) Tj  T* (\177 ) Tj /F2 9.5 Tf (Task 2:) Tj /F1 9.5 Tf ( Implement Game Over Results Screen with Full Statistics) Tj  T* (\177 ) Tj /F2 9.5 Tf (Task 3:) Tj /F1 9.5 Tf ( Add Replay System with Difficulty Presets \(Easy, Medium, Hard\) and Exit Option) Tj  T* (\177 ) Tj /F2 9.5 Tf (Task 4:) Tj /F1 9.5 Tf ( Add Sound Feedback \(Go cue, False Start buzzer, Session Complete chime\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 365.5 cm
+q
+.117647 .160784 .231373 rg
+BT 1 0 0 1 0 4 Tm /F2 14 Tf 18 TL (2. Initial User Prompt) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56 281.5 cm
+q
+.937255 .964706 1 rg
+n 0 76 500 -76 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 10 57 cm
+q
+.113725 .305882 .847059 rg
+BT 1 0 0 1 0 3.5 Tm /F2 9.5 Tf 13 TL (Original User Prompt \(Raw Input\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 10 6 cm
+q
+.117647 .160784 .231373 rg
+BT 1 0 0 1 0 30 Tm /F3 9 Tf 13 TL ("[SETAPESU26/43_reaction-time-tester]- this is the repo link of my assignment, and the folder is the doenloaded repo,) Tj T* (the vibe coding handout tells wt all to do, readme also tells wt all to do, go through it, make changes to fix the code n) Tj T* (make the game run smoothly, and then generate a pdf containing wt all prompts wasgiven to u to accomplish the task") Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.576471 .772549 .992157 RG
+1 w
+n 0 76 m 500 76 l S
+n 0 0 m 500 0 l S
+n 0 0 m 0 76 l S
+n 500 0 m 500 76 l S
+Q
+Q
+Q
+q
+1 0 0 1 60 271.5 cm
+Q
+q
+1 0 0 1 60 239.5 cm
+q
+BT 1 0 0 1 0 4 Tm 18 TL /F2 14 Tf .117647 .160784 .231373 rg (3. Iterative Vibe Coding Prompts & Technical Execution) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 204.5 cm
+q
+BT 1 0 0 1 0 17.5 Tm 13.5 TL /F1 9.5 Tf .2 .254902 .333333 rg (In accordance with the handout directive \() Tj /F3 9.5 Tf ('Learn how to prompt to get the job done in under three to four attempts') Tj /F1 9.5 Tf (\),) Tj T* (the assignment was broken down into 4 clear, high-leverage prompt iterations addressing each task modularly:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 179.5 cm
+q
+BT 1 0 0 1 0 4 Tm 15 TL /F2 11 Tf .2 .254902 .333333 rg (Iteration 1 \227 Task 1: Refine Input Timing Detection & False Start Handling) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56 72.5 cm
+q
+.972549 .980392 .988235 rg
+n 0 103 500 -103 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 87 cm
+q
+.113725 .305882 .847059 rg
+BT 1 0 0 1 0 3.5 Tm /F2 9.5 Tf 13 TL (Vibe Coding Prompt 1:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 3 cm
+q
+BT 1 0 0 1 0 69 Tm 13 TL /F3 9 Tf .117647 .160784 .231373 rg ("In round.py and game_engine.py, analyze the reaction time measurement logic. The current code calculates reaction time) Tj T* (as now - self.start_time) Tj (, which inflates reaction time by the entire wait duration. Furthermore, clicking during the grey) Tj T* (waiting phase is recorded as a valid reaction instead of being flagged as a false start. Refactor round.py to: \(1\) accurately) Tj T* (record go_time when the screen turns green and compute reaction time as now - self.go_time) Tj (; \(2\) detect premature input) Tj T* (during the waiting phase, mark the state as false_start, and prevent invalid reaction times from corrupting the running) Tj T* (average; \(3\) return a trigger flag when transitioning to go.") Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.796078 .835294 .882353 RG
+1 w
+n 0 103 m 500 103 l S
+n 0 0 m 500 0 l S
+n 0 0 m 0 103 l S
+n 500 0 m 500 103 l S
+Q
+Q
+Q
+q
+1 0 0 1 60 68.5 cm
+Q
+q
+BT /F1 8 Tf 9.6 TL ET
+.392157 .454902 .545098 rg
+.796078 .835294 .882353 RG
+.5 w
+n 54 45 m 558 45 l S
+BT 1 0 0 1 54 32 Tm (Real-Time Reaction Time Tester \(Pygame\) \227 Automated Vibe Coding Transcript) Tj T* ET
+BT 1 0 0 1 517.08 32 Tm (Page 1 of 3) Tj T* ET
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 758 612 34 re
+f*
+0.141176 0.196078 0.278431 rg
+BT
+/F2-0 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 40 771 Tm
+(Name\072 Sudeeksh) Tj
+T*
+ET
+BT
+/F1-0 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 473.963 771 Tm
+(SRN\072 PES1UG24CS474) Tj
+T*
+ET
+0.796078 0.835294 0.882353 RG
+0.5 w
+n
+40 763 m
+572 763 l
+S
+1 1 1 rg
+n
+0 0 612 30 re
+f*
+0.796078 0.835294 0.882353 RG
+n
+40 28 m
+572 28 l
+S
+0.141176 0.196078 0.278431 rg
+BT
+/F1-0 8.5 Tf
+10.2 TL
+ET
+BT
+1 0 0 1 207.4042 13 Tm
+(Sudeeksh  \174  SRN\072 PES1UG24CS474  \174  Page 1 of 3) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/Contents 12 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 13 0 R
+/F2 8 0 R
+/F2-0 14 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 6957
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 60 678 cm
+q
+BT 1 0 0 1 0 44.5 Tm 13.5 TL /F2 9.5 Tf .2 .254902 .333333 rg (Actions Taken:) Tj /F1 9.5 Tf ( In round.py) Tj (, added state 'false_start' and property is_false_start) Tj (. When register_input\(\) is invoked) Tj T* -0.024263 Tw (while state == 'waiting') Tj (, it sets state to 'false_start' and returns None) Tj (. When invoked during state == 'go') Tj (, reaction time) Tj T* 0 Tw (is precisely computed as max\(0, now - self.go_time\)) Tj (. In game_engine.py) Tj (, premature clicks are logged as false starts,) Tj T* (displayed on a red screen \() Tj ('TOO SOON!') Tj (\), and excluded from the numerical reaction time average.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 664 cm
+Q
+q
+1 0 0 1 60 639 cm
+q
+BT 1 0 0 1 0 4 Tm 15 TL /F2 11 Tf .2 .254902 .333333 rg (Iteration 2 \227 Task 2: Implement Game Over Screen & Session Statistics) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56 545 cm
+q
+.972549 .980392 .988235 rg
+n 0 90 500 -90 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 74 cm
+q
+.113725 .305882 .847059 rg
+BT 1 0 0 1 0 3.5 Tm /F2 9.5 Tf 13 TL (Vibe Coding Prompt 2:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 3 cm
+q
+.117647 .160784 .231373 rg
+BT 1 0 0 1 0 56 Tm /F3 9 Tf 13 TL ("Implement a complete graphical Game Over screen in game_engine.py. Instead of printing results to the console and) Tj T* (freezing the last frame, create a dedicated results view that renders: \(1\) round-by-round breakdown of all attempts, clearly) Tj T* (distinguishing valid times and false starts; \(2\) overall performance metrics including average reaction time, best/fastest) Tj T* (reaction time, and false start count; \(3\) a reflex evaluation category \(e.g. Pro, Great Reflexes, Average, Needs Practice\);) Tj T* (and \(4\) gracefully wait for user interaction.") Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.796078 .835294 .882353 RG
+1 w
+n 0 90 m 500 90 l S
+n 0 0 m 500 0 l S
+n 0 0 m 0 90 l S
+n 500 0 m 500 90 l S
+Q
+Q
+Q
+q
+1 0 0 1 60 541 cm
+Q
+q
+1 0 0 1 60 487 cm
+q
+BT 1 0 0 1 0 44.5 Tm 13.5 TL /F2 9.5 Tf .2 .254902 .333333 rg (Actions Taken:) Tj /F1 9.5 Tf ( Replaced the console print stub in game_engine.py with a full _render_game_over\(\) routine.) Tj T* (Constructed two modern card panels: Left Card displays the round-by-round log \(e.g. ) Tj /F3 9.5 Tf (Round 1: 245 ms) Tj /F1 9.5 Tf (, ) Tj /F3 9.5 Tf (Round 2:) Tj T* (False Start) Tj /F1 9.5 Tf (\). Right Card presents average time, best time, false start tally, and dynamic reflex rating badges. The) Tj T* (game cleanly remains in the game over loop awaiting user input.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 473 cm
+Q
+q
+1 0 0 1 60 448 cm
+q
+BT 1 0 0 1 0 4 Tm 15 TL /F2 11 Tf .2 .254902 .333333 rg (Iteration 3 \227 Task 3: Add Replay Option & Difficulty Presets) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56 354 cm
+q
+.972549 .980392 .988235 rg
+n 0 90 500 -90 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 74 cm
+q
+.113725 .305882 .847059 rg
+BT 1 0 0 1 0 3.5 Tm /F2 9.5 Tf 13 TL (Vibe Coding Prompt 3:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 3 cm
+q
+.117647 .160784 .231373 rg
+BT 1 0 0 1 0 56 Tm /F3 9 Tf 13 TL ("Add a replay and difficulty selection system to the game over screen. Support three distinct difficulties: Easy \(3 rounds,) Tj T* (1500\2263500ms delay\), Medium \(5 rounds, 1000\2263000ms delay\), and Hard \(7 rounds, 500\2261800ms delay\), as well as an) Tj T* (Exit option. Provide interactive clickable buttons with hover animations, along with keyboard shortcuts \(1/E for Easy, 2/M) Tj T* (for Medium, 3/H for Hard, R/Space for Replay, and Q/ESC for Exit\). When an option is chosen, reset the engine state) Tj T* (cleanly and begin the new session.") Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.796078 .835294 .882353 RG
+1 w
+n 0 90 m 500 90 l S
+n 0 0 m 500 0 l S
+n 0 0 m 0 90 l S
+n 500 0 m 500 90 l S
+Q
+Q
+Q
+q
+1 0 0 1 60 350 cm
+Q
+q
+1 0 0 1 60 296 cm
+q
+BT 1 0 0 1 0 44.5 Tm 13.5 TL /F2 9.5 Tf .2 .254902 .333333 rg (Actions Taken:) Tj /F1 9.5 Tf ( Created DIFFICULTIES dictionary mapping preset configurations. Implemented) Tj T* (set_difficulty\(diff_name\) to re-initialize round counters, history, and timing thresholds. Rendered four interactive) Tj T* (buttons \(Easy, Medium, Hard, Quit\) with mouse collision detection, hover color shifts, and full keyboard shortcut) Tj T* (support.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 282 cm
+Q
+q
+1 0 0 1 60 257 cm
+q
+.2 .254902 .333333 rg
+BT 1 0 0 1 0 4 Tm /F2 11 Tf 15 TL (Iteration 4 \227 Task 4: Add Sound Feedback with Procedural WAV Synthesis) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56 163 cm
+q
+.972549 .980392 .988235 rg
+n 0 90 500 -90 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 74 cm
+q
+.113725 .305882 .847059 rg
+BT 1 0 0 1 0 3.5 Tm /F2 9.5 Tf 13 TL (Vibe Coding Prompt 4:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 3 cm
+q
+.117647 .160784 .231373 rg
+BT 1 0 0 1 0 56 Tm /F3 9 Tf 13 TL ("Create sound effects for the game to provide auditory feedback without relying on external downloaded asset files: \(1\) a) Tj T* (crisp cue tone when the screen turns green \(Go cue\); \(2\) a warning buzzer when a false start occurs; \(3\) a celebratory) Tj T* (completion chime when the session finishes. Implement a SoundManager in game/sound_manager.py that synthesizes) Tj T* (high-quality WAV files using Python's wave and math modules, caches them under assets/sounds/, and handles playback) Tj T* (gracefully with pygame.mixer.") Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.796078 .835294 .882353 RG
+1 w
+n 0 90 m 500 90 l S
+n 0 0 m 500 0 l S
+n 0 0 m 0 90 l S
+n 500 0 m 500 90 l S
+Q
+Q
+Q
+q
+1 0 0 1 60 159 cm
+Q
+q
+1 0 0 1 60 118.5 cm
+q
+BT 1 0 0 1 0 31 Tm 13.5 TL /F2 9.5 Tf .2 .254902 .333333 rg (Actions Taken:) Tj /F1 9.5 Tf ( Built game/sound_manager.py featuring built-in waveform synthesis: go.wav \(880 Hz sine wave) Tj T* (chime\), false_start.wav \(two-tone 200/140 Hz square wave buzzer\), and game_over.wav \(C-E-G-C ascending) Tj T* (four-note fanfare\). Wired these sound triggers into the exact lifecycle events of Round and GameEngine) Tj (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 102.5 cm
+Q
+q
+BT /F1 8 Tf 9.6 TL ET
+.392157 .454902 .545098 rg
+BT 1 0 0 1 54 750 Tm (Lab 4: Vibe Coding \227 Prompt History & Technical Report) Tj T* ET
+BT 1 0 0 1 421.952 750 Tm (SETAPESU26/43_reaction-time-tester) Tj T* ET
+.796078 .835294 .882353 RG
+.5 w
+n 54 744 m 558 744 l S
+.796078 .835294 .882353 RG
+.5 w
+n 54 45 m 558 45 l S
+BT 1 0 0 1 54 32 Tm (Real-Time Reaction Time Tester \(Pygame\) \227 Automated Vibe Coding Transcript) Tj T* ET
+BT 1 0 0 1 517.08 32 Tm (Page 2 of 3) Tj T* ET
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 758 612 34 re
+f*
+0.141176 0.196078 0.278431 rg
+BT
+/F2-0 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 40 771 Tm
+(Name\072 Sudeeksh) Tj
+T*
+ET
+BT
+/F1-0 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 473.963 771 Tm
+(SRN\072 PES1UG24CS474) Tj
+T*
+ET
+0.796078 0.835294 0.882353 RG
+0.5 w
+n
+40 763 m
+572 763 l
+S
+1 1 1 rg
+n
+0 0 612 30 re
+f*
+0.796078 0.835294 0.882353 RG
+n
+40 28 m
+572 28 l
+S
+0.141176 0.196078 0.278431 rg
+BT
+/F1-0 8.5 Tf
+10.2 TL
+ET
+BT
+1 0 0 1 207.4042 13 Tm
+(Sudeeksh  \174  SRN\072 PES1UG24CS474  \174  Page 2 of 3) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+13 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/Contents 16 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 17 0 R
+/F2 8 0 R
+/F2-0 18 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 6586
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 60 714 cm
+q
+.117647 .160784 .231373 rg
+BT 1 0 0 1 0 4 Tm /F2 14 Tf 18 TL (4. Summary of Codebase Changes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56 566 cm
+q
+.117647 .160784 .231373 rg
+n 0 140 500 -20 re f*
+1 1 1 rg
+n 0 120 500 -20 re f*
+.972549 .980392 .988235 rg
+n 0 100 500 -20 re f*
+1 1 1 rg
+n 0 80 500 -20 re f*
+.972549 .980392 .988235 rg
+n 0 60 500 -20 re f*
+1 1 1 rg
+n 0 40 500 -20 re f*
+.972549 .980392 .988235 rg
+n 0 20 500 -20 re f*
+1 1 1 rg
+BT /F2 8.5 Tf 12 TL ET
+BT 1 0 0 1 6 127.5 Tm (File) Tj T* ET
+BT 1 0 0 1 126 127.5 Tm (Status) Tj T* ET
+BT 1 0 0 1 196 127.5 Tm (Description of Changes) Tj T* ET
+0 0 0 rg
+BT /F1 8.5 Tf 12 TL ET
+BT 1 0 0 1 6 107.5 Tm (game/round.py) Tj T* ET
+BT 1 0 0 1 126 107.5 Tm (Modified) Tj T* ET
+BT 1 0 0 1 196 107.5 Tm (Fixed start_time bug, added go_time measurement, added false_start detection.) Tj T* ET
+BT 1 0 0 1 6 87.5 Tm (game/game_engine.py) Tj T* ET
+BT 1 0 0 1 126 87.5 Tm (Modified) Tj T* ET
+BT 1 0 0 1 196 87.5 Tm (Added Game Over UI cards, difficulty configurations \(Easy/Medium/Hard\), replay buttons, audio triggers.) Tj T* ET
+BT 1 0 0 1 6 67.5 Tm (game/sound_manager.py) Tj T* ET
+BT 1 0 0 1 126 67.5 Tm (Created) Tj T* ET
+BT 1 0 0 1 196 67.5 Tm (Standalone procedural WAV synthesizer & playback controller for go, false start, & game over.) Tj T* ET
+BT 1 0 0 1 6 47.5 Tm (game/__init__.py) Tj T* ET
+BT 1 0 0 1 126 47.5 Tm (Created) Tj T* ET
+BT 1 0 0 1 196 47.5 Tm (Package initializer for clean imports.) Tj T* ET
+BT 1 0 0 1 6 27.5 Tm (assets/sounds/*.wav) Tj T* ET
+BT 1 0 0 1 126 27.5 Tm (Generated) Tj T* ET
+BT 1 0 0 1 196 27.5 Tm (Synthesized go.wav, false_start.wav, game_over.wav audio files.) Tj T* ET
+BT 1 0 0 1 6 7.5 Tm (README.md) Tj T* ET
+BT 1 0 0 1 126 7.5 Tm (Updated) Tj T* ET
+BT 1 0 0 1 196 7.5 Tm (Documented new features, controls, difficulty parameters, and test verification.) Tj T* ET
+q
+1 J
+1 j
+.796078 .835294 .882353 RG
+.5 w
+n 0 140 m 500 140 l S
+n 0 0 m 500 0 l S
+n 0 0 m 0 140 l S
+n 500 0 m 500 140 l S
+n 0 120 m 500 120 l S
+n 0 100 m 500 100 l S
+n 0 80 m 500 80 l S
+n 0 60 m 500 60 l S
+n 0 40 m 500 40 l S
+n 0 20 m 500 20 l S
+n 120 0 m 120 140 l S
+n 190 0 m 190 140 l S
+Q
+Q
+Q
+q
+1 0 0 1 60 556 cm
+Q
+q
+1 0 0 1 60 524 cm
+q
+BT 1 0 0 1 0 4 Tm 18 TL /F2 14 Tf .117647 .160784 .231373 rg (5. Automated Test Suite & Verification) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 502.5 cm
+q
+.2 .254902 .333333 rg
+BT 1 0 0 1 0 4 Tm /F1 9.5 Tf 13.5 TL (A comprehensive test suite was executed to validate all components under simulated Pygame events:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56 356.5 cm
+q
+.058824 .462745 .431373 rg
+n 0 140 500 -20 re f*
+1 1 1 rg
+n 0 120 500 -20 re f*
+.941176 .992157 .956863 rg
+n 0 100 500 -20 re f*
+1 1 1 rg
+n 0 80 500 -20 re f*
+.941176 .992157 .956863 rg
+n 0 60 500 -20 re f*
+1 1 1 rg
+n 0 40 500 -20 re f*
+.941176 .992157 .956863 rg
+n 0 20 500 -20 re f*
+1 1 1 rg
+BT /F2 8.5 Tf 12 TL ET
+BT 1 0 0 1 6 127.5 Tm (Test Case) Tj T* ET
+BT 1 0 0 1 186 127.5 Tm (Component) Tj T* ET
+BT 1 0 0 1 346 127.5 Tm (Result) Tj T* ET
+0 0 0 rg
+BT /F1 8.5 Tf 12 TL ET
+BT 1 0 0 1 6 107.5 Tm (Audio Mixer & WAV Generation) Tj T* ET
+BT 1 0 0 1 186 107.5 Tm (SoundManager) Tj T* ET
+BT 1 0 0 1 346 107.5 Tm (PASS \227 3 waveforms generated & loaded) Tj T* ET
+BT 1 0 0 1 6 87.5 Tm (Premature Click during Wait) Tj T* ET
+BT 1 0 0 1 186 87.5 Tm (Round) Tj T* ET
+BT 1 0 0 1 346 87.5 Tm (PASS \227 Identified as false start; ms is None) Tj T* ET
+BT 1 0 0 1 6 67.5 Tm (Genuine Click after Green) Tj T* ET
+BT 1 0 0 1 186 67.5 Tm (Round) Tj T* ET
+BT 1 0 0 1 346 67.5 Tm (PASS \227 Reaction timed from go_time \(delta >= 0\)) Tj T* ET
+BT 1 0 0 1 6 47.5 Tm (Session Round Tracking) Tj T* ET
+BT 1 0 0 1 186 47.5 Tm (GameEngine) Tj T* ET
+BT 1 0 0 1 346 47.5 Tm (PASS \227 Full session completed across rounds) Tj T* ET
+BT 1 0 0 1 6 27.5 Tm (Game Over Screen Rendering) Tj T* ET
+BT 1 0 0 1 186 27.5 Tm (GameEngine) Tj T* ET
+BT 1 0 0 1 346 27.5 Tm (PASS \227 Summary cards & buttons rendered cleanly) Tj T* ET
+BT 1 0 0 1 6 7.5 Tm (Difficulty Replay Reset) Tj T* ET
+BT 1 0 0 1 186 7.5 Tm (GameEngine) Tj T* ET
+BT 1 0 0 1 346 7.5 Tm (PASS \227 Switched to Hard \(7 rounds\) & reset state) Tj T* ET
+q
+1 J
+1 j
+.796078 .835294 .882353 RG
+.5 w
+n 0 140 m 500 140 l S
+n 0 0 m 500 0 l S
+n 0 0 m 0 140 l S
+n 500 0 m 500 140 l S
+n 0 120 m 500 120 l S
+n 0 100 m 500 100 l S
+n 0 80 m 500 80 l S
+n 0 60 m 500 60 l S
+n 0 40 m 500 40 l S
+n 0 20 m 500 20 l S
+n 180 0 m 180 140 l S
+n 340 0 m 340 140 l S
+Q
+Q
+Q
+q
+1 0 0 1 60 346.5 cm
+Q
+q
+1 0 0 1 60 314.5 cm
+q
+.117647 .160784 .231373 rg
+BT 1 0 0 1 0 4 Tm /F2 14 Tf 18 TL (6. Student Submission Checklist) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 212 cm
+q
+BT 1 0 0 1 0 85 Tm 13.5 TL /F1 9.5 Tf .2 .254902 .333333 rg (As instructed in the Lab 4 Student Handout, upload the following to your personal repository under the Lab-4 folder:) Tj  T* /F2 9.5 Tf (1. Videos:) Tj /F1 9.5 Tf  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\177 ) Tj /F3 9.5 Tf (Before Video:) Tj /F1 9.5 Tf ( 10-second recording demonstrating the initial bug \(inflated time from start & early click recorded\).) Tj  T* ( ) Tj ( ) Tj ( ) Tj ( ) Tj (\177 ) Tj /F3 9.5 Tf (After Video:) Tj /F1 9.5 Tf ( 10-second recording showing the fixed game \(false start cue, accurate green reaction time, results) Tj T* (screen, replay options, audio\).) Tj  T* /F2 9.5 Tf (2. Updated Code:) Tj /F1 9.5 Tf ( All Python files in the repository.) Tj  T* /F2 9.5 Tf (3. Chat History Document:) Tj /F1 9.5 Tf ( This exported PDF containing complete prompt iterations and technical report.) Tj T* ET
+Q
+Q
+q
+BT /F1 8 Tf 9.6 TL ET
+.392157 .454902 .545098 rg
+BT 1 0 0 1 54 750 Tm (Lab 4: Vibe Coding \227 Prompt History & Technical Report) Tj T* ET
+BT 1 0 0 1 421.952 750 Tm (SETAPESU26/43_reaction-time-tester) Tj T* ET
+.796078 .835294 .882353 RG
+.5 w
+n 54 744 m 558 744 l S
+.796078 .835294 .882353 RG
+.5 w
+n 54 45 m 558 45 l S
+BT 1 0 0 1 54 32 Tm (Real-Time Reaction Time Tester \(Pygame\) \227 Automated Vibe Coding Transcript) Tj T* ET
+BT 1 0 0 1 517.08 32 Tm (Page 3 of 3) Tj T* ET
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 758 612 34 re
+f*
+0.141176 0.196078 0.278431 rg
+BT
+/F2-0 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 40 771 Tm
+(Name\072 Sudeeksh) Tj
+T*
+ET
+BT
+/F1-0 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 473.963 771 Tm
+(SRN\072 PES1UG24CS474) Tj
+T*
+ET
+0.796078 0.835294 0.882353 RG
+0.5 w
+n
+40 763 m
+572 763 l
+S
+1 1 1 rg
+n
+0 0 612 30 re
+f*
+0.796078 0.835294 0.882353 RG
+n
+40 28 m
+572 28 l
+S
+0.141176 0.196078 0.278431 rg
+BT
+/F1-0 8.5 Tf
+10.2 TL
+ET
+BT
+1 0 0 1 207.4042 13 Tm
+(Sudeeksh  \174  SRN\072 PES1UG24CS474  \174  Page 3 of 3) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+17 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+18 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 19
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000127 00000 n 
+0000000176 00000 n 
+0000000432 00000 n 
+0000006890 00000 n 
+0000006997 00000 n 
+0000007104 00000 n 
+0000007216 00000 n 
+0000007328 00000 n 
+0000007444 00000 n 
+0000007704 00000 n 
+0000014714 00000 n 
+0000014822 00000 n 
+0000014935 00000 n 
+0000015195 00000 n 
+0000021834 00000 n 
+0000021942 00000 n 
+trailer
+<<
+/Size 19
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+22055
+%%EOF
+3 1 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+ /AF [20 0 R] /Names << /EmbeddedFiles << /Names [(Content Credentials) 20 0 R] >> >> >>
+endobj
+19 0 obj
+<< /Length 24276 /Type /EmbeddedFile /Subtype /application#2Fc2pa >>
+stream
+  ^‘jumb   jumdc2pa  Ä  ™ 8õqc2pa   ^Æjumb   Gjumdc2ma  Ä  ™ 8õqurn:c2pa:9261f8fc-761d-4ea5-9fff-b9d62e391fa6   ûjumb   )jumdc2as  Ä  ™ 8õqc2pa.assertions   	πjumb   #jumd@À2ªäHùß*÷ÙCic2pa.icon    bfdb image/svg+xml   	wbidb<svg width="716" height="716" viewBox="0 0 716 716" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M508.749 317.399C516.777 287.314 508.991 253.884 485.389 230.282C461.788 206.681 428.36 198.895 398.273 206.923C376.231 184.928 343.39 174.956 311.148 183.596C278.906 192.234 255.45 217.292 247.36 247.361C217.291 255.451 192.233 278.91 183.595 311.149C174.957 343.391 184.927 376.232 206.924 398.274C198.896 428.359 206.683 461.789 230.284 485.391C253.885 508.992 287.313 516.779 317.401 508.75C339.442 530.745 372.286 540.717 404.525 532.079C436.767 523.441 460.223 498.384 468.313 468.315C498.383 460.224 523.44 436.766 532.078 404.526C540.716 372.285 530.747 339.443 508.749 317.402V317.399ZM470.899 244.776C486.892 260.77 493.488 282.601 490.687 303.412L415.577 260.046C412.411 258.218 408.509 258.218 405.345 260.046L317.401 310.82V277.526C317.401 275.191 318.652 273.005 320.676 271.837L387.644 233.174C414.178 218.353 448.346 222.223 470.901 244.776H470.899ZM357.837 311.144L398.275 334.491V381.185L357.837 404.532L317.398 381.185V334.491L357.837 311.144ZM264.776 269.693C265.207 239.305 285.644 211.649 316.453 203.393C338.3 197.54 360.505 202.744 377.127 215.573L302.014 258.937C298.848 260.764 296.898 264.144 296.898 267.798V369.346L268.065 352.699C266.043 351.531 264.776 349.353 264.776 347.017V269.691V269.693ZM203.391 316.454C209.244 294.608 224.854 277.978 244.276 269.999V356.73C244.276 360.384 246.226 363.763 249.392 365.591L337.337 416.365L308.503 433.013C306.481 434.181 303.961 434.188 301.939 433.02L234.971 394.357C208.868 378.789 195.138 347.261 203.391 316.454ZM244.775 470.9C228.781 454.906 222.186 433.075 224.986 412.264L300.096 455.63C303.263 457.457 307.164 457.457 310.328 455.63L398.273 404.856V438.149C398.273 440.485 397.022 442.671 394.997 443.839L328.029 482.502C301.495 497.322 267.327 493.452 244.772 470.9H244.775ZM450.897 445.982C450.466 476.371 430.029 504.027 399.22 512.283C377.373 518.136 355.168 512.932 338.547 500.102L413.659 456.738C416.826 454.911 418.775 451.532 418.775 447.877V346.329L447.609 362.977C449.631 364.145 450.897 366.323 450.897 368.659V445.985V445.982ZM512.282 399.221C506.429 421.068 490.819 437.697 471.397 445.676V358.946C471.397 355.292 469.448 351.912 466.281 350.085L378.336 299.311L407.17 282.663C409.192 281.495 411.712 281.487 413.734 282.655L480.702 321.318C506.805 336.887 520.536 368.415 512.282 399.221Z" fill="black"/>
+</svg>
+  jumb   )jumdcbor  Ä  ™ 8õqc2pa.actions.v2    ﬂcbor¢gactionsÅ§factionlc2pa.createdqdigitalSourceTypexFhttp://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMediamsoftwareAgent¢dnameegpt-6gversionegpt-6dwhenx2026-10-22T03:07:20.998291ZrallActionsIncludedÙ   §jumb   (jumdcbor  Ä  ™ 8õqc2pa.hash.data    tcbor•jexclusionsÅ¢estartXŒflength^‘dnamenjumbf manifestcalgfsha256dhashX ˇé’æ‚ëµ€‰D:Ó3ΩÌåÊÿ»Ä…∞ío(Pá±<"‹cpad@  âjumb   'jumdc2cl  Ä  ™ 8õqc2pa.claim.v2   Zcbor¶jinstanceIDx,xmp:iid:f073d74d-64a5-45df-9699-c644393c1ac6tclaim_generator_info£dnamegChatGPTdicon¢curlx$self#jumbf=c2pa.assertions/c2pa.icondhashX u>=W1í≥®NÎL˚¡åt∑'w÷–6«e6„ÒkspecVersione2.2.0isignaturexMself#jumbf=/c2pa/urn:c2pa:9261f8fc-761d-4ea5-9fff-b9d62e391fa6/c2pa.signaturercreated_assertionsÉ¢curlx$self#jumbf=c2pa.assertions/c2pa.icondhashX u>=W1í≥®NÎL˚¡åt∑'w÷–6«e6„Ò¢curlx*self#jumbf=c2pa.assertions/c2pa.actions.v2dhashX 2Pˇ:ƒ‘Ñ?Xªﬂ€Î†¡Wë;:T§9ØHÆÉ¥ßa¢curlx)self#jumbf=c2pa.assertions/c2pa.hash.datadhashX &,D]X2u I ”~y+ÓÊ´ÿï›ChªCÔnoÁhdc:titleiimage.pdfcalgfsha256  P8jumb   (jumdc2cs  Ä  ™ 8õqc2pa.signature   Pcbor“ÑYË¢8$!ÇYà0ÇÑ0Çl†•¸ÈpåÚÄ1ÓDds0	*ÜHÜ˜ 0J1!0USSL.com C2PA ICA R1 202510U
+SSL Corporation10	UUS0260422155105Z270423155104Z0G10	UUS10U
+OpenAI OpCo, LLC10UOpenAI Media Service0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç ù∫jLMóÍÅâ∂—æ^XNr°ôﬂiq|Â!#”Å¢5úL£J<Ôn+øÊdÆ◊ÑKi$ZcœÍv
+ê≤e€|<ç·˛¡3wØ'ﬁ; :¥cáòÕMúø¥3D™T07F∏˝öyDsWU£c|›¨X/ÊzÆﬁ•ò√ìNHZ¯‡|§íK’l∫ ¬*»íæu‘îgµW™jöm00,◊Uaåj“S∂ x^ECûNí£ÄÒØ[—≤Î˛ãÔ∫◊7	ï´d-ô…áö¯ø.–ÁcÄñöy†7ì6£5…H…,òcÈDõ5¨πßSlúhs»
+9ÃIÛ £Çg0Çc0Uˇ0 0U#0Ä9=G‹óèØà{MsÕÂÓ§•*0o+c0a09+0Ü-http://crt-c2pa.ssl.com/SSL.com-C2PA-I-R1.cer0$+0Ühttp://ocsp-c2pa.ssl.com0U 00
++ÉË^0)U%"0 ++$
++ÉË^0UÛùM‘Àùr¯F
+vG•hOt0Uˇ¿0	+ÉË^
++ÉË^
+03	+ÉË^&$019bc403-5cd7-7669-afe6-fdb17177d4280	*ÜHÜ˜ Ç Ç8óle°7 Ò˘Ìt∫’¶[5ıglœ+fi@Õı¸“rVﬂ ï(Í¯fﬁBC=¯x†h(â≠µÓ¸ı2“å∏_ÁlÄnÎ[|ó[0Á.B∏∆pö˛˛ 	¨5F’†åIEÄ√∫íU«Zùo“Îÿyõñ:ºDê44}ÙA•3ó/.lQR
+m=I∞À«ÜXÃ‹Óû.È∆9∏3\ ⁄Ó W3T.p(J%)Oí|.“˙›g.zËPx9Q∫É:⁄à~ê#êíıbXöÂ¬®sÜû≈ÿqÈÔ\d{ëÓ7/vòxVdÁoB—}íºÖjomdÖÿˇ"ñÌπÔ≤–\Ñ}h]5[K±≈iHyÊhé†ƒaò:L¯¿$yÂ¶h‡Ô˝÷ê÷.-AduV_ìî∂°úä<∂¿ËmÛ≈CÁv,h§ÚÊÀãàïË{*r$Å=!∆cm/%Ä£ô[™)•˝GÍ·˜kÂ˚[P&m+°Ç]1ı›b®|2‹L«•,r0PÄWìÇ‚ËÆ≥ßØY4ÆrÔ*ùÆx¨‚3ÏSµ…ô“(®*7°N´¸Ã~Xõ'mE·¥*úΩ0W°1. .…‚»T€°íOæ$5ò˛/i‹∏M„ﬁ/Ëlı¡ä‚”˛rw”®+‘WóÆáÿ æì∂âYS0ÇO0Ç7†'+c»ÃM-õÑQrlÙú^2QÆﬁ0	*ÜHÜ˜ 0O1&0$USSL.com C2PA RSA Root CA 202510U
+SSL Corporation10	UUS0251222181730Z301221181730Z0J1!0USSL.com C2PA ICA R1 202510U
+SSL Corporation10	UUS0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç À:¥Õ∏úÀ)V∏yß¯kˆ˘ÿèr√¶ò≠*A⁄a.GRΩtQæ]ÏzÇ∂¿˚˙Ë'•ãË˛bÛ`Ò_H ssï‰NnÃNz5ﬁX·◊Ç‹“GCwõﬂHàyü£9§YN^‡NGóÚuB◊v=∂§"‹Ì∆o‘rFå÷Q«µ∑zÚì˘#'’ÄPuäp†hÈÁºÑ(|ú*Í)©¿/˛…vFU∞/cÍ}ûÙ∞D§@ﬁ@6\DäTkWHˇªo§’Íé¬◊|ÿºŒiø† MìE;ô.y“œûü)ªFŸxc0ñ3Qú^ìm˙Â4JXx≥)l]|∏uï<ôw!{ÿ¥JÎ⁄Õ«
+÷…¢ﬁÆó≥∂Qñ⁄íõ√≤ªPƒ˛∂§Lï]-íjObÂ‡*˜i†ú’πì ⁄—ª^O∆Ø˘)L–…ÏÎÛ≤qP{v'hë˘Pà∏w5ÿÕ°·◊”)ÁJ∆áTY$¬g≤m	5€∫Œ∏F•‡ã⁄·ßüjŒ`“ƒ˜¡ﬁsyU‡p¥ÔÍÃ«˛vâNf
+ià-Ì√F¢*‰å‘úWF-Xb’ ®˙~¯¬ŸajÀ5]†ì£≤e®/ÌÔòÁ¸~∫HÙ™°q¸ìØÍßNsài’B¿˘ÑíÖOÀT≥=:¯›)ey Cûñ∏áXñ!Ô—ë{ £Ç&0Ç"0Uˇ0ˇ 0Uˇ0)U%"0 ++$
++ÉË^0U9=G‹óèØà{MsÕÂÓ§•*0U 00
++ÉË^0U#0Ä¸*Ju:Ä˙ôcìsWÏæì∞}√{0x+l0j0$+0Ühttp://ocsp-c2pa.ssl.com0B+0Ü6http://crt-c2pa.ssl.com/SSL.com-C2PA-Root-2025-RSA.cer0	*ÜHÜ˜ Ç Œ6˙>Ôñ6-éØUfˇ{+ kVıÀ≠Ω*Å≠•¶–M£>ì‰ìi’‰å®nÊ7T‚%úÏef(<3=¢ö¢ªÕgdJÁæt!°n√´&ƒ;,⁄Uπ˝GN‡çxõ7Éƒt;≈GaÔmAr§€]CS…ñNÂ‡:ﬂ®›.—ØXó÷ÁÙ_r#<kœΩ9´åì®èßvY>·íı˜Ÿ˚Fb´nn‘àF†≥/*j_•N⁄¯‘¸ÃŸ£<©wE
+¡˘òπ9ÀÃ°q¿*Çq”‰ˆ%‚Q!m÷ﬂ‰SçoJ}é^¿∫’wy!ÅzŒÌ˜õé∂≤äBVùèkA*˛kúãÓ£(œ_ÛÈ–d÷Ó¬âKÎíœıØ¬'M∏ë°7%ôÊ˝Ä‹Ùº«7{æ¥-gX/Á√≥ãqÂDz0∂•≤u>[#~;”T¶:π«Ã3’j5zÅv/˛W⁄i¯>?ÔTèã{F√cû˙Ìƒ/pÑ+ˆVÇÙßÀ$◊l^${:Ω©X;i≥úè“ptˇãn&ª√´E«SñúGµ∆F´^ı¸àãh£5Â|jïeµ´Îπˇ∫∏‡õJG≤ŒÏ/â}ÓØúMƒ…Œı2=è˜&4˛"ãzÌ˘^^g_Q[€$V˚—Y°∑ﬁöf	∂—Ü.˙}~ïyõDf|6Öˆı£gsigTst2°itstTokensÅ°cvalYä0ÇÜ	*ÜHÜ˜†Çw0Çs10	`ÜHe 0ÅÜ*ÜHÜ˜	†wu0s
++Éø0010	`ÜHe  h˛Gì_Áhv•”ˇ‡([ú¸°¡-ÈJ ¿˛¸MhØk=òºÉaûÎ20261022030724.941067Z0Ä-ñµÕE;∫†Çf0Çˆ0Ç^†a€F(2äåçJ∑ø˛`„l?q∑0	*ÜHÜ˜ 0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CA0260408174626Z370709174626Z0u10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Leaf0Ç¢0	*ÜHÜ˜ Çè 0ÇäÇÅ Í ≈≠î˝˝'ü«xßa ˇ)a*˚°àÕ_®¢óùâ/ãë»º∞ñê=UÇ¡ñé6j≠âiËê€,D2É®
+ÕwÂ5ËÓ®d[˛∏‡éùÁ °(√5›ß7È"˜	Móö¥Ñs¿.|©PG(†¥i∞á)zY˛5B˘ŸiRJ 7ÚhÃÒ-∑Çñ KF\=§Ü∏KEf8¢NM' ï∫uÃNájüt√ $_ƒ~\Æ˛ÛïÌ ëﬂ<ıÜõ*^÷–›…˙»M√…ÑZI,‰8s`R∏LÓ∆Û∑∂ÿ›j©Œ ∫]÷ƒ\5dÚ#S?bée]p+‘…k	ÅERËWÌZF]⁄]vú%yhÉQ§òÑuëròUˇÿ„Cb±Ìig'Aº≈èÚj+ÉIË·-4ª9ØgΩ¥ï»≤ΩEgÕràî_UK,≠ØÌ•Ù$Øw>ÉädQèëå9ñK∞=Æ˙ô°>å=æ6°.ıcµ £x0v0Uˇ0 0Uˇ¿0U%ˇ0
++0U§'TÇ¢äÄ{=≈ÜÕ?pŸ¬ÉôQx0U#0ÄÚ∞«T=#CÖ‹ s–rÄ=∏®0	*ÜHÜ˜ ÇÅ  ˚$OA¿¿ºò≤2 ç ôH5OƒFV~ß>?∂•#˘*H>‡QùE@x¡ªÉNìP…õ'ñhﬂMŒÚˆ“y´ÔÍ¡⁄?ıòYÊpÕâÙÓGã™ÀÏˇå~·FÿëÊú∏‰4Fˇa“x¯}89„RÌ_fËs¿ r;‰®´éÜ*£7!˘;ﬂ{\TÿL«j*KœCt`Äs£…—wØá©˝µ±Ñjnøà*Œö°ö´¢ûÇH7≈cQó€R|og…iB’œı˚≠^ãê‚‡y<.Éjû•Ë%AèÖÌ‰¡†:ç˛ùRPÔáﬁ·dÕU˘! ﬂ∂)Ôü'n—∫4F´J"OÁbw›E#›a-¬1)èƒπ~y´¥W‘¡Ïœ·\{eI∞ÎM´§«'@N¶¥µèœ|√¥Cßv”^0cÓ®Æ5(td´Z5„[/:>N
+a÷0MCõˇN.∆!π>:, W0ujédK¢–	—◊†g&Amg¯pv∏%&V˘ë&'√KI0Ç~0Çf†ç ∆≈≈⁄∞ºÒNï•Íº0	*ÜHÜ˜ 0x10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Root CA0 260408174626Z21260409174626Z0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CA0Ç¢0	*ÜHÜ˜ Çè 0ÇäÇÅ âº‘π‚»°æaªﬁ<df~ßæúm”©0&<Ù‡k 9ﬂï4Ì©¢eH€7Ü2ÉéÃ
+J†¿Û4l†¿òÕ+ü•ÙÀ|Ÿ&ﬁ~…M¢Ôc[ëÊˆY®“˙N˘Ÿ8+ZÕ`ZòÅò®◊S∆„÷.H¨CW	ÈîÚG˘lEä`∑˜Æ/^¢5NÖ8Öiü4ù–MÿC=Õ4m¸cì¸”pªJËvËjNfI†Ì¸¯æÔö∑®w¨Ô∑8Ãπ‘*3ƒv÷@wÀ˛«]-@”ﬁã<¿÷@AôÀî?,} kR¸û P∑	GE·#U˙±OoTòïÙ}∫¯h·"z‹äëCã∂.C±b†æ $é.Ôø§—MË∏?1œ&=≈ PÍÚŸ$ dÌ’sû.px™ﬁV<˘‘Ä¢Ë≠Øˆ˚®£\Àh´D€0wÚƒ4tkUm∆á˚Ú2<ûqE˜ÏP˚˛÷1&ª–ƒMa‚B€Ø√+n_+Ê‚∞Ôç\DÕ¿s}è¢ÈΩmÇº%eÑ0iÌ £{0y0Uˇ0ˇ 0Uˇ0U%0
++0UÚ∞«T=#CÖ‹ s–rÄ=∏®0U#0ÄX¬@†<Gv+®Ên®ëñéñ»∑Ÿ‰0	*ÜHÜ˜ Ç íÏ7\ﬁlÎd⁄Æ°	0rÆ‹rı;ºz=÷∆·/ˆÉ3}ËW@NLô™k‘ôŸã€k÷L¯ –Y3”°†8\#àD$˚á·ˆì'º°ÌL_g]ˇ5´1“Ï{‘@C7O¬Ñú∫d»∞¢~ö6¯·–Ç≥PC≤‡UΩÄî»YRNJtﬁ]«EXõ∑˙0™;‹Gº’.,π8c,yZ∑›U≠=BﬂàœÒh˛s ‘Z∑ﬁ$óë¿Ág˛‹¶
+Û•F≥QœçØ_„»∏@∆Ω„˘÷Kq–d]Âd¬K¿^w—=«[ûœ{˝îîÁKQ⁄˚dÙ´5îÒˆæ~+›≤ö=P›P√ñdém´sü(;w–óÌoEO±3._FÎÉ∂©aº◊ÇÆ¯Äo¬„i0Êm|:Dí+ò-Ø‹4¡æ•*HÁá»ﬁ8µ3 „ÑPpÒ≤KﬁçOˆë‹_Ö˙ÒÊ—◊ ßÓ¥üˆ!x)Å„pXwÜ§:KóÉFË⁄¬jv…©À!Eæe±†Ü.ÄºYKMõCm¥◊Ñ‡¸’»aêCéjù√Ò!<Ñ]˛;÷ÿ#9E_q˙2˝†ÄïDµO Â√t˝‚NárÜÙQáΩ‘µ+5lí§;kjù∫˝¿;úv¬’9I⁄„î>Pj◊L‚âaùÔÎœ≈√@npz80ÇÊ0ÇŒ†P;lâå$3,è˜Oé˚}ÇÏ0	*ÜHÜ˜ 0x10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Root CA0 260408174625Z21260409174625Z0x10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Root CA0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç ˆíÈ“∫≠û·¨u®Vÿ™±≥jí_ñyıí∑-$¯ø¿Ø`æ¡öÕyö‹lö˛6ö¡ò§?‰,ù∫••Ps≥
+¬˘ÛƒI/xΩ“ÏºÁ?Ùõ—Ú†a¢,â% Q˘%ú“∆/ÙâƒA˛&”m5ÕÏª5`@®ÖQæˆÓêòÒ*ÿùzkjŸ.ŸcÛÂ\)≈Ü"¡ähÕÎ8û©Pñ[#C˚8ˇB|;:°Q/%…H‹1ˇPrÓ|°wÕoÅaÛ?ønË“±¶6‰k2˚˛w®^õ\››1êLéeˇÅÀAŒ(1S CŒHn}÷d≥)‰¥.:∑TZrVWÛ®j}ÔÊa›e»H	Iô2t
+¢Ã›ì S¨#ΩÇÖ ±ÔæÌ°w Ó:F3¢ûÏØÈ1f¥fo≤âì†~ï!ŒA¯^éÈÕπ¿’3]x––'1œP0rs⁄j¬¿ìœ≠‹dáˆ˚Nàvı>Ôˇí,ôw.ˆ‹ò∂ù	:˝Ù	«è_ZÈ~H	+µäÉÚ[<,Øë¢ùA∑Rh—ø∞¿⁄O`ΩÓ)™Ìáçq\(åçà£%cEÿ¸{aèlFT;\…∞ÇØÉ»±#?ü[Ó¢◊Tµ*SÆªÖ€¶˙óûÏÑârÛz@…∂ÖXG[Ò$a9¢Lﬁÿ∆®"Úûø[L,À £f0d0Uˇ0ˇ0Uˇ0UX¬@†<Gv+®Ên®ëñéñ»∑Ÿ‰0U#0ÄX¬@†<Gv+®Ên®ëñéñ»∑Ÿ‰0	*ÜHÜ˜ Ç X¯ÅëòÚla˛»Ü÷[Ñ¶÷æ∏¶]]IÀ∏°)Õ-ù∏X˘Ñâ=<¯o’j¥*¢UígÅô^µT˚öFÄ„Q S¿¡àWﬁÔÇU~„Ù}Î&¸Éˇ!®¡¨ﬁ€ì´Õ–0v:ìùŒ™g9.Ätﬂm~v/ÈÍPAã8=lÂ‡>Ó/€dT6^æbE∂—!¥Ä<åÎ⁄ú÷J©’Te[k—X~¿IáÎÎK_í;î◊öÜˆ°YŒG8¨√∞td—¿R;°±{(k·ió¯(;'ˇÆ§û˜eÀ†ÙÍπΩîŒD‚ò±
+HhÓU©!•`è˛ ÷}—{Ü úÛ®x–∆⁄@.»Å\b®*¡˚VÁyéØÏÂ€”p˛FÃc®dÒ<ÈØ•dº^øÖ-∞Œ„π”§◊RªpãÜù˚.ø
+ˆ“U+#B+C\Ï°Ça?œqÌ∞˜óÈ‰À¬<¸¨w∑∂‹ ¡LÈâ≤≤/√~ídúµÑﬁÃñ˝â∞KµC}“È≠Ü˝Ÿ-üΩ Ó¿¥GV#|HëNgâ {b¡…^UÒˆ∆Q#WoÔáæ Fyæî±» (ùïäà&UfRÔŸK∫®ZÈ¬,≠ü√\BÛ°ı'dyqå
+Zû˝π˘Eyp·jµ7ñéX˝EøT%åÉ=Ÿ&3#–Xw¶∏1Çh0Çd0Åì0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CAa€F(2äåçJ∑ø˛`„l?q∑0	`ÜHe †Ç%0	*ÜHÜ˜	1*ÜHÜ˜	0/	*ÜHÜ˜	1" ‘á±+⁄/+AÃç!ãB8#pAq)EºkX	3öxZu¿3÷0Å’*ÜHÜ˜	/1Å≈0Å¬0Åø0Åº ΩOπ≤êLÅ6gànÔA·m˛Ÿ"ùø[íJ–¢ƒ`F"z0Åó0§}0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CAa€F(2äåçJ∑ø˛`„l?q∑0	*ÜHÜ˜ ÇÄ]bÉ°l¥ìı¿ÖáR>Üás1!Ÿ¥LYÊ~Ü_l∫⁄àSGΩ.£˚ïæBŸá^M…¸´ÄsfR≤2ƒÖ.ÃE†B∆vL'ﬁÔnõW§≈Fë:ÜË;îùãs§ vàÕ"ﬂËoå˘óÜ´e±{Q˙˝tg%«ñ-◊ﬂsŒ"«äŸ∑ò|)oJı^u◊Ô¿D<Ã;cST“!3Ú:õºÿ'ÒKë—Áf¨¨¢´ˇrGjÕΩÅGr∂Ó¥Û;çA¡Üw¥◊å€A3≥é¯D@zﬁ≤ç£ª—ıG±6UùˇuR#ÆäÃ\†µG˚çËKÄ7†fW_ü|Û9m.tixS;¸ü5πñ¬ôfE∂ãÓ™˙˚=‘†”/>âõM–zÊ6Äîﬁ ä˚≠÷øÀPfWÃ¬‹†A◊9úa?ﬂô )$y–C˘D‹Lü”«#	hW±éSêfaˆ¶Üø≥π]≈Ø$XV0˜m° ï`#MäÖ{}*»ÿπªè:^ÆWøú’G˚nJ›-erVals°hocspValsÅY◊0Ç”
+ †ÇÃ0Ç»	+0Çπ0Çµ0ÅÈ¢=™™xé˙ˆL˙^j—@MÂTÚÆ20261021220751Z0Åò0Åï0I0	+ ﬂÇ7S^Sÿ3±‡=$5ÒuÊ·
+9=G‹óèØà{MsÕÂÓ§•*•¸ÈpåÚÄ1ÓDdsÄ 20261021220751Z†20261028220750Z°"0 0	+020161023220751Z°#0!0	+0«‚f]?ˇeÂB∑îË –0	*ÜHÜ˜ ÇÅ Öùwgr ◊3Î]Üwﬂ)—{ú„Àï.≠ôÎIÿÓ˚Ê8xñúÃÔ;ˆ]„ËR<Mﬂ=i◊>£a)ä@w”Ôﬂ´˘öÌ˝Ùm£±äûZ∞4Ì¥Ø·Rçk“LöÇÅ”∂N±L¥öˆËÿtÔãìƒY°CZr/Ö∆ô•b2˜(≤VÒí,!‡ª+PïU—c“&8áÃ¥£}˚Ÿ©Ú)=FNø´öìj3ã≥¨õ e≈ê)˚”œ±ΩÜÄê∞åÂ{ıYõLlâ≤£≠î˛ˇ¸gwn˙ﬂó˜ø∞[ﬁçËAò›∞ jê, ◊¶ãƒ|πÕ¢ãõ^ΩÜÁ®q9Zœ÷r—– ØƒÊøAX7±rä´ÙÔ£≈˘”‹@˝èg6:Æû_\ìDIò˛4˛åOó…’]™:ä345O¸Mu\ç3"∆[í4ìm@·?«:h∏opˆî)Kk(‘ïíS/nOU¡TFfïXA ˚„ìønÄ∏·¶JÈ†Ç10Ç-0Ç)0Ç†ZJ≤?–(∆˛K≥?n=„'∫0	*ÜHÜ˜ 0J1!0USSL.com C2PA ICA R1 202510U
+SSL Corporation10	UUS0260102201415Z270102201414Z0M10	UUS10U
+SSL Corp1+0)U"SSL.com C2PA ICA R1 OCSP Responder0Ç¢0	*ÜHÜ˜ Çè 0ÇäÇÅ ¢PìAÊJKﬁõ¶ït&X<ÏR¸ªî2Õ√∆Pﬂ–Ωú∆npã#ó◊åÓÃ|VÓgæ˘ö¿í∞Î∫•3ˇmiêÉ/à-Ì∞K],õπ∏e$cÓ∞$`ç
+Ë¯y∆”a5[åóXü≥å\ÿ‰∆¶–C≥ß”TŸlà˜ß∏ƒÿn˝1(ﬁ	.ê'ısŸw¶’Pö ŸºÀ2≈Fπ¸¢UMÓ†õ¨hj¡?8*zÿ”]∫¥≥ÎùU)ÓÏ“7üÆ≈6©ú∞∑ﬁD*ãËPß Äy{%œŸ9ÚûEõw∫x	†¶N{@é1˝Í"háÄƒÇ!‰OZÚÛà§Kâ*~L$&©†ö…ù|ÓkbÖ"2Ó÷‹+“ﬂ÷F4v†Ç(xéæ*›‰÷j*w€tz5'¶á¡∏:SÅ™ö÷+ìØ„õ∑e“&0J•æ ÒãZ4¶°“Ör8X9ƒÏ>2Ñﬂ7y÷0”7xÊËÕíÈn+nÏ0Î28.©<“-Â £Åá0ÅÑ0Uˇ0 0U#0Ä9=G‹óèØà{MsÕÂÓ§•*0	+0 0U%0
++	0U=™™xé˙ˆL˙^j—@MÂTÚÆ0UˇÄ0	*ÜHÜ˜ Ç ªs¶UÑ£hPÎÒ†l◊…)Ñù>®/Ì
+ª†Î´À¡∏Ü∑0%HmÛ·Ω°M(“+e`D‹∂ç´U?◊›Ö˛ó[$,Ï≠KKÙª	˙û∞‡∞∞˝éDr¥èj›cËÎ≤÷‘«ÒÁãﬂﬂlƒ	¢˝=sX¡()¢k`i0);U¥å©§ê©p>nrƒv0iÇO%¥OUŒÈHœ_ãÕVkﬂ‹ûÜ65é¡7ïs∏Ì∂®DæˆóﬁIºè°>r'–=!|R\P©«‹©˚˜m∞*&†îﬂdÖåß=ä:1të!·ÏJﬂÖhŒa©§k23”hÊ…ø≥¸ˇïÒ◊¬eJlNG˛®`îwhAŒN(D•∆òá®5Úéf™$Ωj¡Æ kﬁt£w&eß•¬(%˝>©ÂIπˇthrGP˚tö"hÖåøÉ úŸ„m¢<\«N•v“ˇ¬™≈Æ¥¸*Bl'®¥÷9ÀôXÀ√±¸6Ë5‘À^…òòŒËÇãÌXa∫aë—©z…>X‡¸îHLtÊœ‘|≥ÚË#KË0hª'Ïπˆ	∂ÌyìÂ
+Çµ«Á.∆Ökì•AY)î∫X”oñMüQ3ë?¿∏Pœµ∫`àÈ7
+Lñü#x⁄¡ é≈ñ>l˙_ 7Vﬂ	!òíy˜¿ø„Œíß´,W=A‘â‡?cpadY&v                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ˆY öˆÌ¬èÛƒb/=èÙR∫ôlPÿ‡§“i‡’óP8©L-ò¶µ|˜ê'Üê#ñLØã?fÙT[9\‡Õ+}–q?Å…‡Î'v.Rs'PÒì¸Ù≥§Ácçg¥‡ƒöÕµ|À™j¨¢•Oπf˚KŸ¯(ˇ®èÉ‰@,≈…b)Ãq;Â˚IGË;•kãS @ﬂ;l'◊ƒô≈§}∏†«kæ":¯˘êè!êj#µ•˙ºË"˚O˙¡ﬂ«o‘‘1˛a_ƒ:^‚˝®˘⁄’~I$˛ÚÇÁúZÑ5O°o
+q(£∏[Ô®tûGë»ﬁ‰Q˙}phxÅ
+endstream
+endobj
+20 0 obj
+<< /AFRelationship /C2PA_Manifest /Desc (Content Credentials) /F (Content Credentials) /EF << /F 19 0 R >> /Subtype (application/c2pa) /Type /Filespec /UF (Content Credentials) >>
+endobj
+xref
+3 1
+0000022514 00001 n 
+19 2
+0000022649 00000 n 
+0000047028 00000 n 
+trailer
+<< /Size 21 /Root 3 1 R /Prev 22055 >>
+startxref
+47224
+%%EOF
